@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+main{
+    width: 100vw;
+    min-height: 100vh;
+}
+main .section1{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(./section1/images/orange-backdrop.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+#jhalar{
+    margin-top: -50px;
+}
+#sec1Para{
+    font-size: 44px;
+    font-family: "Salsa", cursive;
+    width: 600px;
+}
+.container2{
+    max-width: 600px;
+    margin-left: 230px;
+    margin-top: -30px;
+}
+.musicContainer{
+    display: flex;
+    align-items: center;
+    width: 480px;
+    height: 60px;
+    background-color: #FBD8A4;
+    border-radius: 35px;
+    margin: 10px 40px;
+    overflow: hidden;
+}
+audio::-webkit-media-controls-panel{
+background-color: #FBD8A4;
+color: #000;
+}
+#musicIcon{
+    margin-left: 20px;
+    width: 22px;
+}
+#musicName{
+    font-family: "Salsa", cursive;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+.musicBar{
+    margin-left:10px;
+}
+.musicBars{
+    width: 14px;
+}
+.deepak{
+    margin-bottom: -50px;
+}
+.section2{
+    max-width: 100%;
+    min-height: 100vh;
+    background-color: #F99501;
+}
+
